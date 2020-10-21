@@ -20,7 +20,8 @@ class App extends Component {
         >
           Button
         </button>
-        {this.state.para ? <p>{this.state.para}</p> : ""}
+        {this.state.para ? <p id="para">{this.state.para}</p> : ""}
+
       {/* //   <p id="para">{this.state.para}</p>  */}
       </div>
     );
